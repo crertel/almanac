@@ -23,5 +23,5 @@ Information that doesn't fit cleanly into other structures goes into the __/misc
 Information about countries can also be very useful.
 
 * __/geography/country_codes__ is a list of the ISO316601 alpha 2 codes and the countries they represent. These codes are used to index the rest of the directory.
-* __/geography/<COUNTRY CODE>/states__ is a list of the states/provinces in that country.
-* __/geography/<COUNTRY CODE>/territories__ is a list of territories in that country.
+* __/geography/$(COUNTRY_CODE)/states__ is a list of the states/provinces in that country.
+* __/geography/$(COUNTRY_CODE)/territories__ is a list of territories in that country.
