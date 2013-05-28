@@ -21,3 +21,6 @@ Information about countries can also be very useful.
 * __/geography/country_codes__ is a list of the ISO316601 alpha 2 codes and the countries they represent. These codes are used to index the rest of the directory.
 * __/geography/$(COUNTRY_CODE)/states__ is a list of the states/provinces in that country.
 * __/geography/$(COUNTRY_CODE)/territories__ is a list of territories in that country.
+* __/geography/$(COUNTRY_CODE)/first_names_male__ is a list of common male first names in that country.
+* __/geography/$(COUNTRY_CODE)/first_names_female__ is a list of common female first names in that country.
+* __/geography/$(COUNTRY_CODE)/last_names__ is a list of common last names in that country.
